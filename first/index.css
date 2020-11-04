@@ -1,5 +1,7 @@
 * {
     background-color:#efefef;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 #top-block {
     background:  #444444;
@@ -13,17 +15,24 @@
     height: 90vh;
     width: 155px;
     box-sizing: border-box;
+    border: solid 0px black;
     }
 
 #left-block, #right-block {
     background: #d8d8d8;
+    margin-right: 0px;
+}
+
+#mid-block {
+    border: solid 0px red;
 }
 
 #bot-block {
     background: black;
     height: 100px;
     width: 100vw;
-    margin-top: 742px; 
+    margin-top: 742px;
+    margin-left: 0px;
 }
 
 #right-block {
